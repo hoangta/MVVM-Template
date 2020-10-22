@@ -1,5 +1,12 @@
 To install 
-> make install_templates
+```bash
+$ make install_templates
+```
 
 To uninstall 
-> make uninstall_templates
+```bash
+$ make uninstall_templates
+```
+When create a new scene, please use the template:
+
+![template](mvvm-template.png)
