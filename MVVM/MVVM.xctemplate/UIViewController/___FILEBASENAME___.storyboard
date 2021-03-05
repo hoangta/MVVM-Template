@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="gch-sP-JiX">
             <objects>
-                <viewController id="rrn-Ba-fsN" customClass="___FILEBASENAME___ViewController" customModule="___PROJECTNAME___" sceneMemberID="viewController">
+                <viewController id="rrn-Ba-fsN" customClass="___FILEBASENAME___ViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BLm-vL-dlY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +24,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EMX-fp-CrB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="GdY-C8-k4M" customClass="___FILEBASENAME___ViewModel" customModule="___PROJECTNAME___">
+                <customObject id="GdY-C8-k4M" customClass="___FILEBASENAME___ViewModel" customModuleProvider="target">
                     <connections>
                         <outlet property="viewController" destination="rrn-Ba-fsN" id="jWu-pg-seA"/>
                     </connections>
