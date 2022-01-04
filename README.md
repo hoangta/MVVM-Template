@@ -1,6 +1,8 @@
 ## MVVM-Coordinator example
 The example in this repo is about:
+
     - MVVM-Coordinator pattern 
+    
     - Group items by module
     
 ## Template
