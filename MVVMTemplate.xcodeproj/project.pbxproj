@@ -60,18 +60,6 @@
 		22A904842784AC0A00A25020 /* AReuseableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AReuseableView.swift; sourceTree = "<group>"; };
 		22A904872784ACF700A25020 /* Authen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authen.swift; sourceTree = "<group>"; };
 		22A904892784B42700A25020 /* UIControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extensions.swift"; sourceTree = "<group>"; };
-		22A9048C2784B8CD00A25020 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
-		22A9048E2784B8CD00A25020 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
-		22A9048F2784B8CD00A25020 /* ___FILEBASENAME___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewModel.swift"; sourceTree = "<group>"; };
-		22A904902784B8CD00A25020 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
-		22A904912784B8CD00A25020 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		22A904922784BA3500A25020 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		22A904932784BA3500A25020 /* mvvm-template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mvvm-template.png"; sourceTree = "<group>"; };
-		22A904942784BA3500A25020 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		22A9049C2784BFFB00A25020 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = TemplateInfo.plist; path = "Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates/iOS/Application/Game.xctemplate/TemplateInfo.plist"; sourceTree = DEVELOPER_DIR; };
-		22A904A22784C2D500A25020 /* ___FILEBASENAME___.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "___FILEBASENAME___.storyboard"; sourceTree = "<group>"; };
-		22A904C52784C5B400A25020 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
-		22A904C62784C5B400A25020 /* ___FILEBASENAME___ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,16 +92,12 @@
 		22A904402784504800A25020 /* MVVMTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				22A904922784BA3500A25020 /* Makefile */,
-				22A904952784BB1000A25020 /* MVVM */,
 				22A904592784536800A25020 /* Shared */,
 				22A904832784ABF300A25020 /* Views */,
 				22A90456278452E500A25020 /* Modules */,
 				22A9047727848A3F00A25020 /* Extensions */,
 				22A904412784504800A25020 /* AppDelegate.swift */,
 				22A9044A2784504B00A25020 /* Assets.xcassets */,
-				22A904932784BA3500A25020 /* mvvm-template.png */,
-				22A904942784BA3500A25020 /* README.md */,
 				22A9044C2784504B00A25020 /* LaunchScreen.storyboard */,
 				22A9044F2784504B00A25020 /* Info.plist */,
 			);
@@ -231,46 +215,6 @@
 				22A904872784ACF700A25020 /* Authen.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		22A9048B2784B8CD00A25020 /* MVVM.xctemplate */ = {
-			isa = PBXGroup;
-			children = (
-				22A9048C2784B8CD00A25020 /* TemplateIcon@2x.png */,
-				22A904A12784C2D500A25020 /* UseStoryboard */,
-				22A9048D2784B8CD00A25020 /* Default */,
-				22A904902784B8CD00A25020 /* TemplateIcon.png */,
-				22A904912784B8CD00A25020 /* TemplateInfo.plist */,
-			);
-			path = MVVM.xctemplate;
-			sourceTree = "<group>";
-		};
-		22A9048D2784B8CD00A25020 /* Default */ = {
-			isa = PBXGroup;
-			children = (
-				22A9048E2784B8CD00A25020 /* ___FILEBASENAME___ViewController.swift */,
-				22A9048F2784B8CD00A25020 /* ___FILEBASENAME___ViewModel.swift */,
-			);
-			path = Default;
-			sourceTree = "<group>";
-		};
-		22A904952784BB1000A25020 /* MVVM */ = {
-			isa = PBXGroup;
-			children = (
-				22A9049C2784BFFB00A25020 /* TemplateInfo.plist */,
-				22A9048B2784B8CD00A25020 /* MVVM.xctemplate */,
-			);
-			path = MVVM;
-			sourceTree = "<group>";
-		};
-		22A904A12784C2D500A25020 /* UseStoryboard */ = {
-			isa = PBXGroup;
-			children = (
-				22A904A22784C2D500A25020 /* ___FILEBASENAME___.storyboard */,
-				22A904C52784C5B400A25020 /* ___FILEBASENAME___ViewController.swift */,
-				22A904C62784C5B400A25020 /* ___FILEBASENAME___ViewModel.swift */,
-			);
-			path = UseStoryboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
