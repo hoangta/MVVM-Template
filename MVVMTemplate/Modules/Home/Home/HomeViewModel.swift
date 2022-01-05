@@ -9,11 +9,15 @@ import Foundation
 import Combine
 
 final class HomeViewModel: NSObject {
+  // Navigations
   var presentLogin: (() -> Void)!
   var presentDetail: ((String) -> Void)!
 
+  // Datasource/Output to ViewController
+  // This need refactoring into something that prevent `send` method being call from somewhere else other than this viewModel
   let items = CurrentValueSubject<[String], Never>(["Item 1", "Item 2", "Item 3"])
 
+  // Inputs/Actions from ViewController
   func shuffle() {
     let range = 1...Int.random(in: 2...10)
     let items = range.map { "Item \($0)" }
